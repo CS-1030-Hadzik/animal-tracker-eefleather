@@ -11,6 +11,6 @@ if __name__ == "__main__":
     print(dog1)
     dog1.speak()
 
-    print("All Animals:")
-    for animal in Animal.all_animals:
-        print(animal)
+print("All Animals:")
+for animal in Animal.all_animals:
+    print(animal)
