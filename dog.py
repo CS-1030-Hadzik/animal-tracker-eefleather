@@ -12,3 +12,14 @@ class Dog:
     # TODO: Add a method for the dog to make a specific sound. 
     # Call the method `speak` and make it output a specific message like 
     # "The dog barks.
+
+def __init__(self, name, species, breed):
+    self.name = name
+    self.species = species
+    self,breed = breed
+
+def __str__(self):
+    return f"Kingdom: 'Animalia', Name: '{self.name}', Species '{self.species}', Breed: '{self.breed}'"
+
+def speak(self):
+    print("The dog barks.")
