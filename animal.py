@@ -22,7 +22,7 @@ all_animals = []
 def __init__(self, name, species):
     self.name = name
     self.species = species
-    self.all_animals = Animal.all_animals
+    super().__init__()
     self.all_animals.append(self)
 
 def speak(self):
