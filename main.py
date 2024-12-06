@@ -3,7 +3,6 @@ from dog import Dog
 
 if __name__ == "__main__":
 
-
     animal1 = Animal("Buddy", "Canine")
     print(animal1)
     animal1.speak()
